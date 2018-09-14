@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 微软雅黑, Helvetica, Arial, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+textarea{
+    outline: none;
+}
+label{
+    color: rgb(115, 113, 115);
+}
+input{
+    outline: none;
+}

@@ -1,0 +1,274 @@
+@import "base.css";
+.up-fixed{
+    width: 34px;
+    height: 34px;
+    position: fixed;
+    right: 16px;
+    bottom: 26px;
+    background: #5b5b5b;
+    z-index: 999;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 34px;
+}
+.max{
+    margin: 0 36px;
+}
+.max-left{
+    float: left;
+    padding: 10px 10px 10px 0;
+}
+.max-left a{
+    width: 215px;
+    height: 54px;
+}
+.max-left a img{
+    width: 215px;
+    height: 54px;
+}
+.max-right{
+    padding: 20px 0;
+    float: right;
+}
+.max-right ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.max-right ul li{
+    padding: 0 19px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+}
+.max-right ul li a{
+    line-height: 35px;
+    font-size: 14px;
+    color: #848484;
+}
+.max-right ul li a:focus, .max-right ul li a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.min{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+}
+.min-top{
+    width: 100%;
+    height: 54px;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+.min-top a{
+    width: 215px;
+    height: 54px;
+}
+.min-top a img{
+    width: 215px;
+    height: 54px;
+}
+.min-bottom{
+    width: 100%;
+    margin: 0 auto;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+}
+.icon-liebiao2{
+    color: #fff;
+    font-size: 16px;
+}
+.icon-xialajiantou3{
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+
+.relative{
+    width: 100%;
+    height: 634px;
+    background: #2e2e2e;
+    z-index: -2;
+}
+.about-left{
+    width: 30%;
+}
+.box{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.picture{
+    width: 100%;
+    padding: 72px 0 0 40px;
+    position: relative;
+}
+.picture1{
+    width: 390px;
+    padding: 15px;
+    position: relative;
+    z-index: 9;
+}
+.picture1 img {
+    width: 390px;
+}
+.about-right {
+    width: 70%;
+}
+.about-right-top-setting{
+    width: 80%;
+    padding: 95px  0 30px 150px;
+}
+.about-right-top-setting a{
+    color: #fff;
+}
+.setting-box-top{
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.about-right-bottom-setting p{
+    width: 80%;
+    padding: 0 0 0 150px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #aeaeae;
+}
+.big-bottom{
+    height: auto;
+    padding: 20px 0 80px 150px;
+    display: flex;
+    justify-content: left;
+}
+.big-bottom a{
+    padding: 2px 20px;
+    display: block;
+    font-size: 14px;
+    text-align: right;
+    position: relative;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.big-bottom a:hover{
+    color: #888;
+    border: 1px solid #888;
+}
+@media screen and (max-width: 768px) {
+    .max {
+        display: none;
+    }
+    .min {
+        display: block;
+    }
+    header{
+        width: 100%;
+        height: 124px;
+        background: #262b37;
+    }
+    main{
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 768px) {
+    .max {
+        display: none;
+    }
+    .min {
+        display: block;
+    }
+    header{
+        width: 100%;
+        height: 124px;
+        background: #262b37;
+    }
+    main{
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 992px) {
+    .min {
+        display: none;
+    }
+    .max {
+        display: block;
+    }
+    header{
+        width: 100%;
+        height: 75px;
+        background: #262b37;
+    }
+    main{
+        padding: 0 40px;
+        margin: 0 auto;
+    }
+    .big-medium{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .big-medium li{
+        width: 27%;
+        height: auto;
+    }
+    .big-medium li .photo{
+        width: 300px;
+        height: 250px;
+        display: block;
+    }
+    .photo img{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+@media screen and  (min-width: 1200px) {
+    .min {
+        display: none;
+    }
+    .max {
+        display: block;
+    }
+    header{
+        width: 100%;
+        height: 75px;
+        background: #262b37;
+    }
+    main{
+        padding: 0 40px;
+        margin: 0 auto;
+    }
+    .big-medium{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .big-medium li{
+        width: 27%;
+        height: auto;
+    }
+    .big-medium li .photo{
+        width: 347px;
+        height: 303px;
+        display: block;
+    }
+    .photo img{
+        width: 100%;
+        height: 100%;
+        transition: all .3s linear;
+    }
+
+}
